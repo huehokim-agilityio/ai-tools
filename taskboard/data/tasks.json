@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "title": "Weekly report for team lead",
+    "due": "2026-10-14",
+    "priority": "high",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 2,
+    "title": "Sprint planning meeting",
+    "due": "2026-10-15",
+    "priority": "high",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 3,
+    "title": "Update API documentation",
+    "due": "2026-10-17",
+    "priority": "medium",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 4,
+    "title": "Review Lan's pull request",
+    "due": "2026-10-14",
+    "priority": "medium",
+    "done": true,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 5,
+    "title": "Fix mobile login issue",
+    "due": "2026-10-12",
+    "priority": "high",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 6,
+    "title": "Write tests for payment module",
+    "due": "2026-10-19",
+    "priority": "medium",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 7,
+    "title": "Send monthly invoice to client",
+    "due": "2026-10-16",
+    "priority": "low",
+    "done": true,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 8,
+    "title": "Clean up the backlog",
+    "due": "2026-10-21",
+    "priority": "low",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 9,
+    "title": "Prepare client demo",
+    "due": "2026-10-18",
+    "priority": "high",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 10,
+    "title": "Check server logs",
+    "due": "2026-10-13",
+    "priority": "medium",
+    "done": true,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 11,
+    "title": "Book meeting room for Friday",
+    "due": "2026-10-16",
+    "priority": "low",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 12,
+    "title": "Q3 expense report",
+    "due": "2026-10-24",
+    "priority": "medium",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 13,
+    "title": "Upgrade frontend libraries",
+    "due": "2026-10-28",
+    "priority": "low",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 14,
+    "title": "Interview QA candidate",
+    "due": "2026-10-15",
+    "priority": "high",
+    "done": true,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 15,
+    "title": "Write onboarding guide",
+    "due": "2026-10-20",
+    "priority": "medium",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 16,
+    "title": "Back up the database",
+    "due": "2026-10-14",
+    "priority": "high",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 17,
+    "title": "Run user feedback survey",
+    "due": "2026-10-23",
+    "priority": "low",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 18,
+    "title": "Design settings screen",
+    "due": "2026-10-22",
+    "priority": "medium",
+    "done": true,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 19,
+    "title": "Optimize homepage load time",
+    "due": "2026-10-26",
+    "priority": "medium",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 20,
+    "title": "Call the supplier",
+    "due": "2026-10-11",
+    "priority": "low",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 21,
+    "title": "Schedule internal training",
+    "due": "2026-10-25",
+    "priority": "low",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 22,
+    "title": "Test release 2.1",
+    "due": "2026-10-17",
+    "priority": "high",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 23,
+    "title": "Update price list",
+    "due": "2026-10-29",
+    "priority": "medium",
+    "done": true,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 24,
+    "title": "Reply to customer emails",
+    "due": "2026-10-14",
+    "priority": "medium",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  },
+  {
+    "id": 25,
+    "title": "Sprint retro summary",
+    "due": "2026-10-19",
+    "priority": "low",
+    "done": false,
+    "deleted": false,
+    "createdAt": "2026-10-14T08:31:25.862639+00:00"
+  }
+]
