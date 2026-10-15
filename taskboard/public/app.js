@@ -6,7 +6,9 @@ const $ = (id) => document.getElementById(id);
 
 function isOverdue(task) {
   if (!task.due || task.done) return false;
-  return new Date(task.due) < new Date();
+  const now = new Date();
+  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+  return task.due < today; // 'YYYY-MM-DD' strings sort in date order
 }
 
 function formatDate(iso) {
