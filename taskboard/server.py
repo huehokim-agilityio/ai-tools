@@ -54,9 +54,9 @@ def list_tasks(query):
 
 
 def get_stats():
-    tasks = load_tasks()
+    tasks = [t for t in load_tasks() if not t["deleted"]]
     return {
-        "total": len([t for t in tasks if not t["deleted"]]),
+        "total": len(tasks),
         "done": len([t for t in tasks if t["done"]]),
     }
 
