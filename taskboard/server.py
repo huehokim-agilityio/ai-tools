@@ -43,7 +43,7 @@ def list_tasks(query):
     items = [t for t in load_tasks() if not t["deleted"]]
 
     if q:
-        items = [t for t in items if q in t["title"]]
+        items = [t for t in items if q.casefold() in t["title"].casefold()]
 
     total = len(items)
     pages = max(1, -(-total // PAGE_SIZE))
