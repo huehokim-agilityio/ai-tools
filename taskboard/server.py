@@ -15,6 +15,7 @@ BASE_DIR = Path(__file__).parent
 DATA_FILE = BASE_DIR / "data" / "tasks.json"
 PUBLIC_DIR = BASE_DIR / "public"
 PAGE_SIZE = 10
+ZERO_WIDTH = re.compile("[\u200b\u200c\u200d\u2060\ufeff]")
 
 MIME = {
     ".html": "text/html; charset=utf-8",
@@ -63,6 +64,9 @@ def get_stats():
 
 def create_task(body):
     title = body.get("title")
+    if isinstance(title, str):
+        # strip() doesn't remove zero-width characters, so drop them first
+        title = ZERO_WIDTH.sub("", title).strip()
     if not title:
         return None, "Title is required"
     tasks = load_tasks()
