@@ -48,7 +48,7 @@ def list_tasks(query):
     total = len(items)
     pages = max(1, -(-total // PAGE_SIZE))
     start = (page - 1) * PAGE_SIZE
-    page_items = items[start:start + PAGE_SIZE - 1]
+    page_items = items[start:start + PAGE_SIZE]
 
     return {"items": page_items, "total": total, "page": page, "pages": pages}
 
