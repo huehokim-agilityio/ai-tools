@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TaskBoard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>TaskBoard</h1>
+      <p id="stats" class="stats">Loading…</p>
+    </header>
+
+    <form id="add-form" class="card">
+      <input id="title" placeholder="New task title" />
+      <input id="due" type="date" />
+      <select id="priority">
+        <option value="high">High</option>
+        <option value="medium" selected>Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+    <p id="error" class="error"></p>
+
+    <div class="toolbar">
+      <input id="search" placeholder="Search tasks by title…" />
+    </div>
+
+    <ul id="list" class="list"></ul>
+
+    <nav class="pager">
+      <button id="prev">← Prev</button>
+      <span id="page-info"></span>
+      <button id="next">Next →</button>
+    </nav>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
