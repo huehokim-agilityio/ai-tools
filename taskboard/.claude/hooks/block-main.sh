@@ -1,3 +1,5 @@
+#!/bin/bash
+
 CMD=$(jq -r '.tool_input.command // empty')
 BRANCH=$(git -C "$CLAUDE_PROJECT_DIR" branch --show-current 2>/dev/null)
 
