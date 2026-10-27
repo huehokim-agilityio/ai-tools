@@ -3,7 +3,8 @@
 CMD=$(jq -r '.tool_input.command // empty')
 BRANCH=$(git -C "$CLAUDE_PROJECT_DIR" branch --show-current 2>/dev/null)
 
-if echo "$CMD" | grep -qE 'git[[:space:]]+push.*(main|master)'; then
+# Block pushes that target main/master as a whole ref name, not branches that merely contain the word
+if echo "$CMD" | grep -qE 'git[[:space:]]+push.*[[:space:]:/+](main|master)([^[:alnum:]_./-]|$)'; then
   echo "Pushing to main is not allowed. Create a new branch and open a Pull Request." >&2
   exit 2
 fi
