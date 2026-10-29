@@ -1,0 +1,100 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "TaskBoard" [level=1] [ref=e4]
+    - paragraph [ref=e5]: "Completed: 6/25"
+  - generic [ref=e6]:
+    - textbox "New task title" [ref=e7]
+    - textbox [ref=e8]
+    - combobox [ref=e9]:
+      - option "High"
+      - option "Medium" [selected]
+      - option "Low"
+    - button "Add" [ref=e10] [cursor=pointer]
+  - paragraph [ref=e11]
+  - textbox "Search tasks by title…" [ref=e13]
+  - list [ref=e14]:
+    - listitem [ref=e15]:
+      - checkbox [ref=e16]
+      - generic [ref=e17]:
+        - generic [ref=e18]: Weekly report for team lead
+        - generic [ref=e19]:
+          - generic [ref=e20]: High
+          - text: 29/10/2026
+      - button "✕" [ref=e21] [cursor=pointer]
+    - listitem [ref=e22]:
+      - checkbox [ref=e23]
+      - generic [ref=e24]:
+        - generic [ref=e25]: Sprint planning meeting
+        - generic [ref=e26]:
+          - generic [ref=e27]: High
+          - text: 30/10/2026
+      - button "✕" [ref=e28] [cursor=pointer]
+    - listitem [ref=e29]:
+      - checkbox [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]: Update API documentation
+        - generic [ref=e33]:
+          - generic [ref=e34]: Medium
+          - text: 01/11/2026
+      - button "✕" [ref=e35] [cursor=pointer]
+    - listitem [ref=e36]:
+      - checkbox [checked] [ref=e37]
+      - generic [ref=e38]:
+        - generic [ref=e39]: Review Lan's pull request
+        - generic [ref=e40]:
+          - generic [ref=e41]: Medium
+          - text: 29/10/2026
+      - button "✕" [ref=e42] [cursor=pointer]
+    - listitem [ref=e43]:
+      - checkbox [ref=e44]
+      - generic [ref=e45]:
+        - generic [ref=e46]: Fix mobile login issue
+        - generic [ref=e47]:
+          - generic [ref=e48]: High
+          - text: 27/10/2026
+          - generic [ref=e49]: Overdue
+      - button "✕" [ref=e50] [cursor=pointer]
+    - listitem [ref=e51]:
+      - checkbox [ref=e52]
+      - generic [ref=e53]:
+        - generic [ref=e54]: Write tests for payment module
+        - generic [ref=e55]:
+          - generic [ref=e56]: Medium
+          - text: 03/11/2026
+      - button "✕" [ref=e57] [cursor=pointer]
+    - listitem [ref=e58]:
+      - checkbox [checked] [ref=e59]
+      - generic [ref=e60]:
+        - generic [ref=e61]: Send monthly invoice to client
+        - generic [ref=e62]:
+          - generic [ref=e63]: Low
+          - text: 31/10/2026
+      - button "✕" [ref=e64] [cursor=pointer]
+    - listitem [ref=e65]:
+      - checkbox [ref=e66]
+      - generic [ref=e67]:
+        - generic [ref=e68]: Clean up the backlog
+        - generic [ref=e69]:
+          - generic [ref=e70]: Low
+          - text: 05/11/2026
+      - button "✕" [ref=e71] [cursor=pointer]
+    - listitem [ref=e72]:
+      - checkbox [ref=e73]
+      - generic [ref=e74]:
+        - generic [ref=e75]: Prepare client demo
+        - generic [ref=e76]:
+          - generic [ref=e77]: High
+          - text: 02/11/2026
+      - button "✕" [ref=e78] [cursor=pointer]
+    - listitem [ref=e79]:
+      - checkbox [checked] [ref=e80]
+      - generic [ref=e81]:
+        - generic [ref=e82]: Check server logs
+        - generic [ref=e83]:
+          - generic [ref=e84]: Medium
+          - text: 28/10/2026
+      - button "✕" [ref=e85] [cursor=pointer]
+  - navigation [ref=e86]:
+    - button "← Prev" [disabled] [ref=e87]
+    - generic [ref=e88]: Page 1/3 · 25 tasks
+    - button "Next →" [ref=e89] [cursor=pointer]

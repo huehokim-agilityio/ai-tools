@@ -1,0 +1,59 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "TaskBoard" [level=1] [ref=e4]
+    - paragraph [ref=e5]: "Completed: 7/25"
+  - generic [ref=e6]:
+    - textbox "New task title" [ref=e7]
+    - textbox [ref=e8]
+    - combobox [ref=e9]:
+      - option "High"
+      - option "Medium" [selected]
+      - option "Low"
+    - button "Add" [ref=e10] [cursor=pointer]
+  - paragraph [ref=e11]
+  - textbox "Search tasks by title…" [ref=e13]
+  - list [ref=e14]:
+    - listitem [ref=e388]:
+      - checkbox [ref=e389]
+      - generic [ref=e390]:
+        - generic [ref=e391]: Schedule internal training
+        - generic [ref=e392]:
+          - generic [ref=e393]: Low
+          - text: 09/11/2026
+      - button "✕" [ref=e394] [cursor=pointer]
+    - listitem [ref=e395]:
+      - checkbox [ref=e396]
+      - generic [ref=e397]:
+        - generic [ref=e398]: Test release 2.1
+        - generic [ref=e399]:
+          - generic [ref=e400]: High
+          - text: 01/11/2026
+      - button "✕" [ref=e401] [cursor=pointer]
+    - listitem [ref=e402]:
+      - checkbox [checked] [ref=e403]
+      - generic [ref=e404]:
+        - generic [ref=e405]: Update price list
+        - generic [ref=e406]:
+          - generic [ref=e407]: Medium
+          - text: 13/11/2026
+      - button "✕" [ref=e408] [cursor=pointer]
+    - listitem [ref=e409]:
+      - checkbox [ref=e410]
+      - generic [ref=e411]:
+        - generic [ref=e412]: Reply to customer emails
+        - generic [ref=e413]:
+          - generic [ref=e414]: Medium
+          - text: 29/10/2026
+      - button "✕" [ref=e415] [cursor=pointer]
+    - listitem [ref=e416]:
+      - checkbox [ref=e417]
+      - generic [ref=e418]:
+        - generic [ref=e419]: Sprint retro summary
+        - generic [ref=e420]:
+          - generic [ref=e421]: Low
+          - text: 03/11/2026
+      - button "✕" [ref=e422] [cursor=pointer]
+  - navigation [ref=e86]:
+    - button "← Prev" [ref=e87] [cursor=pointer]
+    - generic [ref=e88]: Page 3/3 · 25 tasks
+    - button "Next →" [disabled] [ref=e89]

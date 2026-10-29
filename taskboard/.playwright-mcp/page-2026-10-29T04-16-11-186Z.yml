@@ -1,0 +1,100 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "TaskBoard" [level=1] [ref=e4]
+    - paragraph [ref=e5]: "Completed: 7/25"
+  - generic [ref=e6]:
+    - textbox "New task title" [ref=e7]
+    - textbox [ref=e8]
+    - combobox [ref=e9]:
+      - option "High"
+      - option "Medium" [selected]
+      - option "Low"
+    - button "Add" [ref=e10] [cursor=pointer]
+  - paragraph [ref=e11]
+  - textbox "Search tasks by title…" [ref=e13]
+  - list [ref=e14]:
+    - listitem [ref=e317]:
+      - checkbox [ref=e318]
+      - generic [ref=e319]:
+        - generic [ref=e320]: Book meeting room for Friday
+        - generic [ref=e321]:
+          - generic [ref=e322]: Low
+          - text: 31/10/2026
+      - button "✕" [ref=e323] [cursor=pointer]
+    - listitem [ref=e324]:
+      - checkbox [ref=e325]
+      - generic [ref=e326]:
+        - generic [ref=e327]: Q3 expense report
+        - generic [ref=e328]:
+          - generic [ref=e329]: Medium
+          - text: 08/11/2026
+      - button "✕" [ref=e330] [cursor=pointer]
+    - listitem [ref=e331]:
+      - checkbox [ref=e332]
+      - generic [ref=e333]:
+        - generic [ref=e334]: Upgrade frontend libraries
+        - generic [ref=e335]:
+          - generic [ref=e336]: Low
+          - text: 12/11/2026
+      - button "✕" [ref=e337] [cursor=pointer]
+    - listitem [ref=e338]:
+      - checkbox [checked] [ref=e339]
+      - generic [ref=e340]:
+        - generic [ref=e341]: Interview QA candidate
+        - generic [ref=e342]:
+          - generic [ref=e343]: High
+          - text: 30/10/2026
+      - button "✕" [ref=e344] [cursor=pointer]
+    - listitem [ref=e345]:
+      - checkbox [ref=e346]
+      - generic [ref=e347]:
+        - generic [ref=e348]: Write onboarding guide
+        - generic [ref=e349]:
+          - generic [ref=e350]: Medium
+          - text: 04/11/2026
+      - button "✕" [ref=e351] [cursor=pointer]
+    - listitem [ref=e352]:
+      - checkbox [ref=e353]
+      - generic [ref=e354]:
+        - generic [ref=e355]: Back up the database
+        - generic [ref=e356]:
+          - generic [ref=e357]: High
+          - text: 29/10/2026
+      - button "✕" [ref=e358] [cursor=pointer]
+    - listitem [ref=e359]:
+      - checkbox [ref=e360]
+      - generic [ref=e361]:
+        - generic [ref=e362]: Run user feedback survey
+        - generic [ref=e363]:
+          - generic [ref=e364]: Low
+          - text: 07/11/2026
+      - button "✕" [ref=e365] [cursor=pointer]
+    - listitem [ref=e366]:
+      - checkbox [checked] [ref=e367]
+      - generic [ref=e368]:
+        - generic [ref=e369]: Design settings screen
+        - generic [ref=e370]:
+          - generic [ref=e371]: Medium
+          - text: 06/11/2026
+      - button "✕" [ref=e372] [cursor=pointer]
+    - listitem [ref=e373]:
+      - checkbox [ref=e374]
+      - generic [ref=e375]:
+        - generic [ref=e376]: Optimize homepage load time
+        - generic [ref=e377]:
+          - generic [ref=e378]: Medium
+          - text: 10/11/2026
+      - button "✕" [ref=e379] [cursor=pointer]
+    - listitem [ref=e380]:
+      - checkbox [ref=e381]
+      - generic [ref=e382]:
+        - generic [ref=e383]: Call the supplier
+        - generic [ref=e384]:
+          - generic [ref=e385]: Low
+          - text: 26/10/2026
+          - generic [ref=e386]: Overdue
+      - button "✕" [ref=e387] [cursor=pointer]
+  - navigation [ref=e86]:
+    - button "← Prev" [ref=e87] [cursor=pointer]
+    - generic [ref=e88]: Page 2/3 · 25 tasks
+    - button "Next →" [active] [ref=e89] [cursor=pointer]

@@ -1,0 +1,35 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "TaskBoard" [level=1] [ref=e4]
+    - paragraph [ref=e5]: "Completed: 6/25"
+  - generic [ref=e6]:
+    - textbox "New task title" [ref=e7]
+    - textbox [ref=e8]
+    - combobox [ref=e9]:
+      - option "High"
+      - option "Medium" [selected]
+      - option "Low"
+    - button "Add" [ref=e10] [cursor=pointer]
+  - paragraph [ref=e11]
+  - textbox "Search tasks by title…" [active] [ref=e13]: REPORT
+  - list [ref=e14]:
+    - listitem [ref=e90]:
+      - checkbox [ref=e91]
+      - generic [ref=e92]:
+        - generic [ref=e93]: Weekly report for team lead
+        - generic [ref=e94]:
+          - generic [ref=e95]: High
+          - text: 29/10/2026
+      - button "✕" [ref=e96] [cursor=pointer]
+    - listitem [ref=e97]:
+      - checkbox [ref=e98]
+      - generic [ref=e99]:
+        - generic [ref=e100]: Q3 expense report
+        - generic [ref=e101]:
+          - generic [ref=e102]: Medium
+          - text: 08/11/2026
+      - button "✕" [ref=e103] [cursor=pointer]
+  - navigation [ref=e86]:
+    - button "← Prev" [disabled] [ref=e87]
+    - generic [ref=e88]: Page 1/1 · 2 tasks
+    - button "Next →" [disabled] [ref=e89]
