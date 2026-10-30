@@ -81,6 +81,7 @@ Tool versions are pinned in `lint.sh`. Config lives in `eslint.config.mjs` (core
 
 This config loads only when Claude Code is started from `taskboard/`, because the hooks use `$CLAUDE_PROJECT_DIR`.
 
-- **PostToolUse `format.sh`:** every Edit/Write auto-formats the file, using `black` for `.py` and `npx prettier` for js/json/css/md. Expect formatting-only diffs, and keep the `app.js` function shape that the tests need.
+- **PostToolUse `format.sh`:** every Edit/Write auto-formats js/mjs/json/css/html/md files with `npx prettier` (`.py` is not formatted, and `data/tasks.json` is skipped). Expect formatting-only diffs, and keep the `app.js` function shape that the tests need.
 - **PreToolUse `block-main.sh`:** rejects `git commit`/`git push` while on `main`, plus any Bash command that matches `git push.*(main|master)`, even inside a string such as a test payload. Work on a branch.
+- **PreToolUse `block-forbidden.sh`:** rejects force pushes (`--force`, `--force-with-lease`, `-f`, `+refspec`). It only guards Claude's Bash calls, not pushes typed by hand.
 - Also defined: the read-only `code-reviewer` subagent and the `commit-format` skill.
