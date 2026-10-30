@@ -83,5 +83,5 @@ This config loads only when Claude Code is started from `taskboard/`, because th
 
 - **PostToolUse `format.sh`:** every Edit/Write auto-formats js/mjs/json/css/html/md files with `npx prettier` (`.py` is not formatted, and `data/tasks.json` is skipped). Expect formatting-only diffs, and keep the `app.js` function shape that the tests need.
 - **PreToolUse `block-main.sh`:** rejects `git commit`/`git push` while on `main`, plus any Bash command that matches `git push.*(main|master)`, even inside a string such as a test payload. Work on a branch.
-- **PreToolUse `block-forbidden.sh`:** rejects force pushes (`--force`, `--force-with-lease`, `-f`, `+refspec`). It only guards Claude's Bash calls, not pushes typed by hand.
+- **PreToolUse `block-forbidden.sh`:** rejects force pushes (`--force`, `--force-with-lease`, `-f`, `+refspec`). It only guards Claude's Bash calls, not pushes typed by hand. It matches the command text, so a command that merely mentions a force push (e.g. in a `gh pr create --body`) is blocked too; pass such text through a file (`--body-file`). Without `jq` it blocks every Bash call.
 - Also defined: the read-only `code-reviewer` subagent and the `commit-format` skill.
