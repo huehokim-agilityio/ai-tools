@@ -136,6 +136,7 @@ class TestRejectBlankTitles(ServerTestCase):
     def test_valid_title_is_trimmed_and_saved(self):
         task, error = server.create_task({"title": "  Buy milk​  "})
         self.assertIsNone(error)
+        assert task is not None
         self.assertEqual(task["title"], "Buy milk")
         self.assertEqual([t["title"] for t in self.read_tasks()], ["Buy milk"])
 

@@ -111,7 +111,13 @@ $('search').addEventListener('input', (e) => {
   }, 250);
 });
 
-$('prev').addEventListener('click', () => { state.page--; loadTasks(); });
-$('next').addEventListener('click', () => { state.page++; loadTasks(); });
+$('prev').addEventListener('click', () => {
+  state.page--;
+  loadTasks();
+});
+$('next').addEventListener('click', () => {
+  state.page++;
+  loadTasks();
+});
 
 refresh();
